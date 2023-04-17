@@ -17,11 +17,15 @@ class Queue {
 
   constructor() {
     this.arr = [];
+    // this.head = null;
+    // this.tail = null;
   }
 
   getUnderlyingList() {
-    throw new NotImplementedError('Not implemented');
+    // throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
+
+
     // const test = [];
     // for(let i = 0; i<this.arr.length; i++) {
     //   // test.push(`{"value":${this.arr[i]},"next":${this.arr[i+1]} }`);
@@ -36,6 +40,16 @@ class Queue {
     // throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
     this.arr.push(value);
+    // const addNode = new ListNode(value);
+
+    // if(!this.head) {
+    //   this.head = addNode;
+      // this.tail = addNode;
+    // }
+
+    // this.tail.next = addNode;
+    // this.tail = addNode;
+
   }
 
   dequeue() {
